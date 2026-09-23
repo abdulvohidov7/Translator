@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UZ ⇄ EN Tarjimon (A1)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>UZ ⇄ EN Tarjimon</h1>
+  <p class="sub">A1 daraja uchun 200+ so'zlik oddiy lug'at asosida tarjima</p>
+
+  <div class="card">
+    <div class="dir-row">
+      <span id="lblUz" class="active">O'zbekcha</span>
+      <button id="swapBtn" title="Yo'nalishni almashtirish">⇄</button>
+      <span id="lblEn">English</span>
+    </div>
+
+    <label id="inLabel" for="inputText">Matn kiriting (o'zbekcha):</label>
+    <textarea id="inputText"></textarea>
+
+    <button class="translate" id="translateBtn">Tarjima qilish</button>
+
+    <label style="margin-top:14px;">Natija:</label>
+    <div class="output" id="outputText">—</div>
+    <div class="hint">Eslatma: bu so'zma-so'z tarjima. Lug'atda topilmagan so'zlar <span class="missing">qizil</span> rangda, o'zgarishsiz qoladi.</div>
+  </div>
+
+  <footer>200+ A1 so'z asosida oddiy lug'aviy tarjimon</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
